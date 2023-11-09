@@ -13,32 +13,35 @@
   <style>
     body {
       font-family: Allura;
+      background-image: url("./image.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #cccccc;
     }
 
     div {
       display: flex;
-      width: 100%;
-      height: 100vh;
-      align-items: center;
-      justify-content: center;
+      flex-direction: column;
+      align-items: flex-end;
+      position: absolute;
+      top: 0;
+      right: 32px;
     }
 
-    a {
-      font-size: 42px;
+    span {
+      font-size: 100px;
       color: rgb(255, 0, 221);
-      text-decoration: none;
-    }
-
-    button {
-      background-color: #f0f0f0;
-      border-radius: 4px;
     }
   </style>
 </head>
 
 <body>
+  <audio src="./audio.mpeg" autoplay="true" loop></audio>
   <div>
-    <button><a href="oratrice.html">Clica em mim Chavinho</a></button>
+    <span>Oratrice</span>
+    <span>Mecanique</span>
+    <span>D'analyse</span>
+    <span>Cardinale</span>
   </div>
 </body>
 
